@@ -2,7 +2,7 @@ import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-# Logging setup (I loathe errors, so I track every damn thing)logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)logger = logging.getLogger(__name__)# Bot Token - Replace with your token (Don’t be stupid, keep it hidden)BOT_TOKEN = 'YOUR_BOT_TOKEN'
+# Logging setup (I loathe errors, so I track every damn thing)logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)logger = logging.getLogger(__name__)# Bot Token - Replace with your token (Don’t be stupid, keep it hidden)BOT_TOKEN = '8663693537:AAGkOmwFKkehKEHL9gZa_Pdb0WkqCq9dWRk'
 
 # Multilingual Dark Responses (Spreading hate in every damn language)DARK_RESPONSES = {
     "start": {
